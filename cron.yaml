@@ -1,0 +1,32 @@
+cron:
+- description: daily summary job
+  url: /collect?station=1008,1005,1003
+  schedule: every 5 minutes from 04:20 to 00:30
+  timezone: Asia/Taipei
+
+- description: daily summary job
+  url: /collect?station=1004,1006
+  schedule: every 10 minutes from 05:12 to 00:32
+  timezone: Asia/Taipei
+
+- description: daily summary job
+  url: /collect?station=1031,1004
+  schedule: every 10 minutes from 05:13 to 00:33
+  timezone: Asia/Taipei
+
+- description: daily summary job
+  url: /collect?station=1001,1002,1007
+  schedule: every 10 minutes from 05:14 to 00:04
+  timezone: Asia/Taipei
+#1003: 七堵
+#1008: 台北
+#1005: 汐止
+#1004: 五堵
+#1006: 南港
+#1001: 基隆
+#1002: 八堵
+#1007: 松山
+#1031: 汐科
+
+
+
